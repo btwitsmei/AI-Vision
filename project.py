@@ -30,11 +30,12 @@ fingertips_points = [8, 12, 16, 20]
 finger_base_points =[6, 10, 14, 18]
 
 # colours definition 
-YELLOW = (255, 190, 11)
-ORANGE = (251, 86, 7)
-PINK = (255, 0, 110)
-PURPLE = (131, 56, 236)
-BLUE = (58, 134, 255)
+GREEN = (48, 255, 48)
+BLUE = (192, 101, 21)
+YELLOW = (0, 204, 255)
+PURPLE = (128, 64, 128)
+PEACH = (180, 229, 255)
+WITHE = (255, 255, 255)
 
 # hand detection
 with mp_hands.Hands(
@@ -128,22 +129,22 @@ with mp_hands.Hands(
           
           # visualization
           cv2.rectangle(frame, (0, 0), (80, 80), (125, 220, 0), -1)
-          cv2.putText(frame, fingers_counter,(15, 65), 1, 5, (255, 255, 255), 2)
+          cv2.putText(frame, fingers_counter,(15, 65), 1, 5, WITHE, 2)
           # thumb
-          cv2.rectangle(frame, (100, 10), (150, 60), YELLOW, thickness[0])
-          cv2.putText(frame, "thummb", (100, 80), 1, 1, (255, 255, 255), 2)
+          cv2.rectangle(frame, (100, 10), (150, 60), PEACH, thickness[0])
+          cv2.putText(frame, "thumb", (100, 80), 1, 1, WITHE, 2)
           # index
-          cv2.rectangle(frame, (160, 10), (210, 60), ORANGE, thickness[1])
-          cv2.putText(frame, "index", (160, 80), 1, 1, (255, 255, 255), 2)
+          cv2.rectangle(frame, (160, 10), (210, 60), PURPLE, thickness[1])
+          cv2.putText(frame, "index", (160, 80), 1, 1, WITHE, 2)
           # middle
-          cv2.rectangle(frame, (220, 10), (270, 60), PINK, thickness[2])
-          cv2.putText(frame, "middle", (220, 80), 1, 1, (255, 255, 255), 2)
+          cv2.rectangle(frame, (220, 10), (270, 60), YELLOW, thickness[2])
+          cv2.putText(frame, "middle", (220, 80), 1, 1, WITHE, 2)
           # ring
-          cv2.rectangle(frame, (280, 10), (330, 60), PURPLE, thickness[3])
-          cv2.putText(frame, "ring", (280, 80), 1, 1, (255, 255, 255), 2)
+          cv2.rectangle(frame, (280, 10), (330, 60), GREEN, thickness[3])
+          cv2.putText(frame, "ring", (280, 80), 1, 1, WITHE, 2)
           # pinkie
           cv2.rectangle(frame, (340, 10), (390, 60), BLUE, thickness[4])
-          cv2.putText(frame, "pinkie", (340, 80), 1, 1, (255, 255, 255), 2)
+          cv2.putText(frame, "pinkie", (340, 80), 1, 1, WITHE, 2)
 
           cv2.imshow("Frame", frame)
           if cv2.waitKey(1) & 0xFF == 27: #ASCII code for escape 
