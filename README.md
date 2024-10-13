@@ -35,3 +35,5 @@ Para la instalacion de las librerias utilizadas se tienen que correr estos coman
 
 ## Link de la demo
 
+
+[en ingles](https://github.com/btwitsmei/AI-Vision/blob/main/README(ENG).md)
