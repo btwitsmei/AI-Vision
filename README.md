@@ -24,11 +24,8 @@ El término NumPy es la abreviatura de "Numerical Python". Es una libreria de c�
 | **Aplicaciones** | detección facial, análisis de imágenes, vigilancia por cámaras, etc |traducción automática, análisis de sentimientos, clasificación de textos, etc|resúmenes automáticos, codificación automática, generación de artículos, etc
 | **Técnicas** | procesamiento de imágenes, segmentación de imágenes y detección de bordes |análisis sintáctico, análisis semántico y embeddings de palabras|preentrenamiento y ajuste en grandes cantidades de datos textuales
 
-## Sobre el proyecto
-
-
-### Función
-palm_centroid(coordinates_list): esta funcion calcula el centro de la palma de la mano que se capture por comara
-
-### Captura de video por camara
-cap = cv2.VideoCapture(0, cv2.CAP_DSHOW): 
+## Instalaciones de librerias
+**OpenCV:** pip install opencv-python
+**MediaPipe:** pip install mediapipe
+**NumPy:** pip install numpy
+> pip install opencv-python mediapipe numpy
