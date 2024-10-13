@@ -25,7 +25,10 @@ El término NumPy es la abreviatura de "Numerical Python". Es una libreria de c�
 | **Técnicas** | procesamiento de imágenes, segmentación de imágenes y detección de bordes |análisis sintáctico, análisis semántico y embeddings de palabras|preentrenamiento y ajuste en grandes cantidades de datos textuales
 
 ## Instalaciones de librerias
-**OpenCV:** pip install opencv-python
-**MediaPipe:** pip install mediapipe
-**NumPy:** pip install numpy
+Para la instalacion de las librerias utilizadas se tienen que correr estos comandos
+- **OpenCV:** pip install opencv-python
+- **MediaPipe:** pip install mediapipe
+- **NumPy:** pip install numpy
+
+> si se quiere intalar todos de una vez correr esta linea
 > pip install opencv-python mediapipe numpy
