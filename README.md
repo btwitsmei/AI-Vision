@@ -32,3 +32,6 @@ Para la instalacion de las librerias utilizadas se tienen que correr estos coman
 
 > si se quiere intalar todos de una vez correr esta linea </br>
 > pip install opencv-python mediapipe numpy
+
+## Link de la demo
+
